@@ -72,6 +72,9 @@ if language == 'ru':
     authors = [u'Aleksander Guryanov', u'Ngoc Dao', u'Takeharu Oshida']
     authors_string = ', '.join(authors)
 
+if language == 'ko':
+    authors = [u'조성환']
+    authors_string = ', '.join(authors)
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
 #today = ''
